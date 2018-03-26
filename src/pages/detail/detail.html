@@ -1,0 +1,82 @@
+<!--
+  Generated template for the DetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{item.text}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <h2 *ngIf=" item.id == 10">Frozen</h2>
+    <h2 *ngIf=" item.id == 9">Star Wars: The Last Jedi</h2>
+    <h2 *ngIf=" item.id == 8">Harry Potter and the Deathly Hallows Part 2</h2>
+    <h2 *ngIf=" item.id == 7">Avengers: Age of Ultron</h2>
+    <h2 *ngIf=" item.id == 6">Furious 7</h2>
+    <h2 *ngIf=" item.id == 5">The Avengers</h2>
+    <h2 *ngIf=" item.id == 4">Jurassic World</h2>
+    <h2 *ngIf=" item.id == 3">Star Wars: The Force Awakens</h2>
+    <h2 *ngIf=" item.id == 2">Titanic</h2>
+    <h2 *ngIf=" item.id == 1">Avatar</h2>
+    
+    <img *ngIf=" item.id == 10" src="assets/imgs/frozen.jpg"/>
+    <p *ngIf=" item.id == 10">Total Gross: $1,290,000,000<br>Year Released: 2013</p> 
+    <p *ngIf=" item.id == 10">In “Frozen,” fearless optimist Anna teams up with rugged mountain man Kristoff and his loyal reindeer Sven in an epic journey, encountering Everest-like conditions, mystical trolls and a hilarious snowman named Olaf in a race to find Anna's sister Elsa, whose icy powers have trapped the kingdom of Arendelle in eternal winter.</p>
+    
+    <img *ngIf=" item.id == 9" src="assets/imgs/star-wars-last_jedi.jpg"/>
+    <p *ngIf=" item.id == 9">Total Gross: $1,332,054,388<br>Year Released: 2017</p>
+    <p *ngIf=" item.id == 9">In Lucasfilm’s Star Wars: The Last Jedi, the Skywalker saga continues as the heroes of The Force Awakens join the galactic legends in an epic adventure that unlocks new mysteries of the Force and shocking revelations of the past.</p>
+
+    <img *ngIf=" item.id == 8" src="assets/imgs/harry-potter-deathly_hallows2.jpg"/>
+    <p *ngIf=" item.id == 8">Total Gross: $1,341,511,219<br>Year Released: 2011</p>
+    <p *ngIf=" item.id == 8">Harry Potter and the Deathly Hallows - Part 2 is the final adventure in the Harry Potter film series. The much-anticipated motion picture event is the second of two full-length parts. In the epic finale, the battle between the good and evil forces of the wizarding world escalates into an all-out war. The stakes have never been higher and no one is safe. But it is Harry Potter who may be called upon to make the ultimate sacrifice as he draws closer to the climactic showdown with Lord Voldemort. It all ends here.</p>
+    
+    <img *ngIf=" item.id == 7" src="assets/imgs/avengers-age_of_ultron.jpg"/>
+    <p *ngIf=" item.id == 7">Total Gross: $1,405,403,694<br>Year Released: 2015</p>
+    <p *ngIf=" item.id == 7">Marvel Studios presents “Avengers: Age of Ultron,” the epic follow-up to the biggest Super Hero movie of all time. When Tony Stark tries to jumpstart a dormant peacekeeping program, things go awry and Earth’s Mightiest Heroes, including Iron Man, Captain America, Thor, The Incredible Hulk, Black Widow and Hawkeye, are put to the ultimate test as the fate of the planet hangs in the balance. As the villainous Ultron emerges, it is up to The Avengers to stop him from enacting his terrible plans, and soon uneasy alliances and unexpected action pave the way for an epic and unique global adventure.</p>
+
+    <img *ngIf=" item.id == 6" src="assets/imgs/furious7.jpg"/>
+    <p *ngIf=" item.id == 6">Total Gross: $1,516,045,911<br>Year Released: 2015</p>
+    <p *ngIf=" item.id == 6">Vin Diesel, Paul Walker and Dwayne Johnson lead the returning cast across the globe in their most gravity-defying and emotional adventure yet. Targeted by a cold-blooded black ops assassin with a score to settle (Jason Statham), their only hope is to get behind the wheel again and secure an ingenious prototype tracking device. Facing their greatest threat yet in places as far away as Abu Dhabi and as familiar as the Los Angeles streets they call home, the crew must come together once again as a team, and as a family, to protect their own.</p>
+
+    <img *ngIf=" item.id == 5" src="assets/imgs/avengers.jpg"/>
+    <p *ngIf=" item.id == 5">Total Gross: $1,518,812,988<br>Year Released: 2012</p> 
+    <p *ngIf=" item.id == 5">Marvel presents The Avengers, the Super Hero team-up of a lifetime. Iconic Marvel Super Heroes Iron Man, The Incredible Hulk, Thor and Captain America assemble for the first time ever in this new action-packed Marvel saga, starring Robert Downey Jr., Scarlett Johansson and Samuel L. Jackson, and directed by Joss Whedon. When an unexpected enemy emerges that threatens global safety and security, Nick Fury, Director of the international peacekeeping agency S.H.I.E.L.D., finds himself needing a team to pull the world back from the brink of disaster. Marvel's The Avengers is packed with action, adventure and spectacular special effects that’ll knock your socks off.</p>
+    
+    <img *ngIf=" item.id == 4" src="assets/imgs/jurassic-world.jpg"/>
+    <p *ngIf=" item.id == 4">Total Gross: $1,671,713,208<br>Year Released: 2015</p>
+    <p *ngIf=" item.id == 4">The Jurassic World theme park lets guests experience the thrill of witnessing actual dinosaurs, but something ferocious lurks behind the park's attractions – a genetically modified dinosaur with savage capabilities. When the massive creature escapes, chaos erupts across the island. Now it's up to Owen (Chris Pratt) and Claire (Bryce Dallas Howard) to save the park's tourists from an all-out prehistoric assault.</p>
+
+    <img *ngIf=" item.id == 3" src="assets/imgs/star-wars-force_awakens.jpg"/>
+    <p *ngIf=" item.id == 3">Total Gross: $2,068,223,624<br>Year Released: 2015</p>
+    <p *ngIf=" item.id == 3">Visionary director J.J. Abrams brings to life the motion picture event of a generation. As Kylo Ren and the sinister First Order rise from the ashes of the Empire, Luke Skywalker is missing when the galaxy needs him most. It's up to Rey, a desert scavenger, and Finn, a defecting stormtrooper, to join forces with Han Solo and Chewbacca in a desperate search for the one hope of restoring peace to the galaxy.</p>
+    
+    <img *ngIf=" item.id == 2" src="assets/imgs/titanic.jpg"/>
+    <p *ngIf=" item.id == 2">Total Gross: $2,187,463,944<br>Year Released: 1997</p>
+    <p *ngIf=" item.id == 2">Experience Academy Award-winning director James Cameronʼs epic masterpiece Titanic like never before. Leonardo DiCaprio and Kate Winslet shine in this unforgettable love story born of tragedy that became a worldwide phenomenon. Take the journey and discover why critics declare Titanic “a magnificent motion picture that remains spellbinding.”</p>
+    
+    <img *ngIf=" item.id == 1" src="assets/imgs/avatar.jpg"/>
+    <p *ngIf=" item.id == 1">Total Gross: $2,787,965,087<br>Year Released: 2009</p>
+    <p *ngIf=" item.id == 1">From Academy Award®-winning director James Cameron comes Avatar, the story of an ex-Marine who finds himself thrust into hostilities on an alien planet filled with exotic life forms. As an Avatar, a human mind in an alien body, he finds himself torn between two worlds, in a desperate fight for his own survival and that of the indigenous people.</p>
+  
+     
+	<!--List taken from Wikipedia https://en.wikipedia.org/wiki/List_of_highest-grossing_films*/-->
+	<!-- Image and Text Attribution-->
+	<!--
+	Frozen - https://itunes.apple.com/us/movie/frozen/id741238771
+	Star Wars: The Last Jedi - https://itunes.apple.com/us/movie/star-wars-the-last-jedi/id1316280891
+	Harry Potter and the Deathly Hallows - https://itunes.apple.com/us/movie/harry-potter-and-the-deathly	-hallows-part-2/id455832983
+	Avengers: Age of Ultron - https://itunes.apple.com/ca/movie/avengers-age-of-ultron/id983441161
+	Furious 7 - https://itunes.apple.com/us/movie/furious-7/id972784695
+	The Avengers - https://itunes.apple.com/ca/movie/the-avengers/id533654020
+	Jurassic World - https://itunes.apple.com/ca/movie/jurassic-world/id973589977
+	Star Wars: The Force Awakens - https://itunes.apple.com/ca/movie/star-wars-the-force-awakens/id1063466898
+	Titanic - https://itunes.apple.com/ca/movie/titanic/id545892907
+  -->
+</ion-content>
